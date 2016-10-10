@@ -10,6 +10,5 @@ app.use(morgan('common'));
 
 app.get('*', (req, res) => res.send('ok'));
 
-const listener = app.listen(process.env.PORT, function () {
-  console.log('Your app is listening on port ' + listener.address().port);
-});
+app.listen(process.env.PORT || 8080, () => console.log(
+  `Your app is listening on port ${process.env.PORT || 8080}`));
