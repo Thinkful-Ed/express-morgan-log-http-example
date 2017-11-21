@@ -4,18 +4,15 @@
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "node --harmony --harmony_destructuring server.js"
+		"start": "node server.js"
 	},
 	"dependencies": {
 		"express": "^4.12.4",
 		"morgan": "^1.7.0"
 	},
-	"engines": {
-		"node": "4.4.3"
-	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Thinkful-Ed/hyperdev-morgan-http-logging/pull/1"
+		"url": "https://github.com/Thinkful-Ed/hyperdev-morgan-http-logging"
 	},
 	"keywords": [
 		"node",
